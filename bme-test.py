@@ -5,7 +5,7 @@ from time import sleep
 import BME280
 
 # Initialize I2C communication
-i2c = I2C(id=0, scl=Pin(5), sda=Pin(4), freq=10000)
+i2c = I2C(id=0, scl=Pin(9), sda=Pin(8), freq=10000)
 
 while True:
     try:
